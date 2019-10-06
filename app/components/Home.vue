@@ -19,11 +19,12 @@
             <Label class="action-bar-title" text="Home"></Label>
         </ActionBar>
 
-        <GridLayout class="page-content">
-            <Label class="page-icon fa" text.decode="&#xf015;"></Label>
-            <Label class="page-placeholder" :text="message"></Label>
-            <WebView height="430" width="350"  src="~/test.html"/>
-        </GridLayout>
+        <StackLayout class="page-content">
+
+            <WebView height="300" width="200"  src="https://google.com"/>
+            <WebView height="300" width="200"  src="~/test.html"/>
+            <WebView height="300" width="200"  src="~/app/test.html"/>
+        </StackLayout>
 
     </Page>
 </template>
